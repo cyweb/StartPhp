@@ -1,8 +1,8 @@
 <?php
 
 // website
-define('base', 'http://'.$_SERVER['SERVER_NAME']."/can/eticaret/");
-define('theme',"tema");
+define('base', 'http://'.$_SERVER['SERVER_NAME']."/");
+define('theme',"tema_folder_name");
 define('theme_folder',dirname(__FILE__).'app/view/'.theme.'/');
 
 // database
